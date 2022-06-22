@@ -4,7 +4,7 @@
 */
 
 // print the function below
-
+//
 function myNumberFunction() {
   let num = 2 ** 2;
   num = num + 3;

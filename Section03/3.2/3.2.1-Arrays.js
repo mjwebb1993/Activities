@@ -16,6 +16,7 @@ const something = [x, y, 4, "green", true, false, null, [9, 0, 9, 8, 5], ["this"
 // use the length property to access the last item in the Array
   console.log("Element @ length-1 = ", something[something.length - 1]);
 
+  //
 // with for...of, loop over the Array, modify the value and add to a different Array
   let z;        // empty variable
   let q = [];   // empty array

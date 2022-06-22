@@ -64,7 +64,7 @@ newObj["favorites"] = {
   number: 19,
   color: "gray"
 };
-
+//
 // add a complex array to the object `newObj`
 newObj.list = ["a", "b", 3, "d", ["e", 4, 5], { f: 6 }];
 

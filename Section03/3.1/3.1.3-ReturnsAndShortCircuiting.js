@@ -30,7 +30,7 @@ function shortCircuitFunction() {
 
 console.log(shortCircuitFunction());
 
-
+//
 // ? will the following function short circuit?
 let height = 50;
 function checkCircusRides() {

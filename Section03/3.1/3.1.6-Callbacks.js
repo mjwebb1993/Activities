@@ -13,7 +13,7 @@ function greet(name) {
 function welcome(name) {
   return `${name}, welcome!`;
 }
-
+//
 function informAboutSale(name) {
   return `${name}, we're having a sale!`;
 }

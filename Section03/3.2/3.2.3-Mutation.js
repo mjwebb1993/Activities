@@ -35,7 +35,7 @@ console.log("\n Before mutation a, b, and c are ...", a, b, c);
 a = NaN;
 b = false;
 c = 0;
-
+//
 // using BRACKET NOTATION, assign a value to b
 b[0] = 1;
 console.log("\n b after mutation", b);

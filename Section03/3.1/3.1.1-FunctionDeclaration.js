@@ -19,7 +19,7 @@ function greet() {
 const threeModTwo = function() {
   console.log(3 % 2);
 };
-
+//
 // Refactored function...
 function threeModTwo() {
   console.log(3 % 2);

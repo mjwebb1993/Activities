@@ -45,8 +45,8 @@ const tripleAndHalf = (num) => {
     return triple / 2;
 }
 console.log(tripleAndHalf(7));
-
-
+//
+//
 // Function Declaration
 function sumTwoNumbers(num1, num2) {
   let sum = num1 + num2;

@@ -21,7 +21,7 @@ function addNumbersFrom1To100() {
 
 // try to print the variable "total" outside the function
 // ? what do you expect ?
-
+//
 // console.log("total variable", total);
 
 

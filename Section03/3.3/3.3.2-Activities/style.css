@@ -1,0 +1,19 @@
+.lists{
+  border:2px red solid;
+
+}
+#firstList{
+  background-color: aqua;
+}
+#secondList{
+  background-color: gray;
+}
+li:hover  {
+  color: red;
+}
+a:visited {
+  color:greenyellow;
+}
+a:active{
+  color:red;
+}

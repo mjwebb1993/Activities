@@ -283,3 +283,9 @@ data.forEach((user) => {
 
 console.log(arrOfStr);
 // query the HTML for the class class-week, then use forEach to change the text content
+const classes = document.querySelectorAll(".class-week");
+
+classes.forEach(
+  (htmlElement, i) =>
+    (htmlElement.textContent = `text content is changed, class week ${i}`)
+);

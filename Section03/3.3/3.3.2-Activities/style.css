@@ -1,19 +1,29 @@
-.lists{
-  border:2px red solid;
+/* 1. add a link to this file in index.html */
+/* 2. use the following types of selectors:
+    - class & id selectors
+    - chain a class selector onto a element selector
+    - group two or more selectors
+    - select all the child list items from one of your lists
+    - select an element that is a sibling of another element */
+/* 3. Box Model:
+    - use the universal selector to give all elements a border
+    - add padding and margin on some elements
+    - add padding and margin only on certain sides of some elements */
+/* 4. use a pseudo-class to have at least one element change color when someone hovers over it */
+/* CSS Properties (MDN): https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index */
 
+
+*{
+  border: 2px dashed chartreuse;
 }
 #firstList{
-  background-color: aqua;
+  border: 10px solid green;
 }
-#secondList{
-  background-color: gray;
+/* #secondList */
+.lists:hover {
+  background-color:blue;
+  padding: 100px 50px 75px 25px;
 }
-li:hover  {
+.things > li {
   color: red;
-}
-a:visited {
-  color:greenyellow;
-}
-a:active{
-  color:red;
 }
